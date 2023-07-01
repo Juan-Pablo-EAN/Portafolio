@@ -6,13 +6,5 @@ body {
     background-image: url(imgs/wood2.jpg);
     background-size: contain;
     height: 3000px;
-}
-
-.retrato {
-    background-image: url(imgs/retrato.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 50px 0 0 50px;
-    width: 300px;
-    height: 400px;
+    padding: 0 5%;
 }

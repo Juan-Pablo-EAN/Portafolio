@@ -1,0 +1,50 @@
+.photo {
+    background-image: url(https://live.staticflickr.com/65535/53013750736_2ef4610b48_z.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+}
+
+.contentHeader {
+    display: flex;
+}
+
+.contentHeader .contentTitle {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contentHeader .contentTitle .text {
+    height: 360px;
+    background-image: url(estanteVidrio.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 85px;
+}
+
+.contentHeader .contentTitle .text h1 {
+    font-size: 100px;
+    text-shadow: -7px -7px 7px #41330a, 0 -7px 0 #41330a;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description div{
+    width: 50%;
+    height: 155px;
+    background-image: url(estanteVidrio.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: large;
+    text-shadow: -5px -5px 5px #41330a, 0 -4px 1px #41330a;
+}

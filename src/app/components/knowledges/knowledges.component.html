@@ -1,0 +1,8 @@
+<div class="contentImages">
+    <p-galleria [value]="images" [autoPlay]="true" [numVisible]="5" [circular]="true" [showItemNavigators]="true"
+        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '640px' }">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" style="width: 100%; display: flex; justify-self: center; align-self: center;" />
+        </ng-template>
+    </p-galleria>
+</div>
