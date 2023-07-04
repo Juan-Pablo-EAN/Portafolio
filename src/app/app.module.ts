@@ -8,12 +8,13 @@ import { ImageModule } from 'primeng/image';
 import { KnowledgesComponent } from './components/knowledges/knowledges.component';
 import { GalleriaModule } from 'primeng/galleria';
 import { UniversityComponent } from './components/university/university.component';
-import { HobbitsComponent } from './components/hobbits/hobbits.component';
-import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselModule } from 'primeng/carousel';
 import { CardModule } from 'primeng/card';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ButtonModule } from 'primeng/button';
+import { BackgroundsDirective } from './directives/backgrounds.directive';
 
 @NgModule({
   declarations: [
@@ -21,10 +22,10 @@ import { CardModule } from 'primeng/card';
     HeaderComponent,
     KnowledgesComponent,
     UniversityComponent,
-    HobbitsComponent,
-    CertificatesComponent,
     ExperienceComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent,
+    BackgroundsDirective
   ],
   imports: [
     BrowserModule,
@@ -33,7 +34,8 @@ import { CardModule } from 'primeng/card';
     ImageModule,
     GalleriaModule,
     CarouselModule,
-    CardModule
+    CardModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

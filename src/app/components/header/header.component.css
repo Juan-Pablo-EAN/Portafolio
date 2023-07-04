@@ -1,8 +1,7 @@
 .content {
-    background-image: url('../../../imgs/wood2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('https://i.ibb.co/D1y2YNZ/wood2.jpg');
     background-attachment: fixed;
+    background-position-y: -400px;
     width: 100%;
 }
 
