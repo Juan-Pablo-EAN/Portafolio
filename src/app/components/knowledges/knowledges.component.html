@@ -1,8 +1,28 @@
-<div class="contentImages">
-    <p-galleria [value]="images" [autoPlay]="true" [numVisible]="5" [circular]="true" [showItemNavigators]="true"
-        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '640px' }">
-        <ng-template pTemplate="item" let-item>
-            <img [src]="item.itemImageSrc" style="width: 100%; display: flex; justify-self: center; align-self: center;" />
-        </ng-template>
-    </p-galleria>
+<div class="componentDiv content">
+    <div class="titleDiv">
+        <h1>KNOWLEDGES</h1>
+    </div>
+    <div class="contentImages">
+        <div class="contentCarusel">
+            <p-carousel [value]="images" [numVisible]="4" [autoplayInterval]="5000" [numScroll]="1"
+                [responsiveOptions]="responsiveOptions" [circular]="true">
+                <ng-template let-image pTemplate="item">
+                    <div class="image-item">
+                        <div class="image-item-content">
+                            <div class="mb-3">
+                                <p-card [header]="image.title" [style]="{ width: '300px', padding: '5%', textAlign:'center',
+                                    background:'#353535a8', color:'white', height: '400px',
+                                    display:'flex', justifyContent:'center', alignItems:'center',
+                                    flexWrap:'wrap'}">
+                                    <ng-template pTemplate="header">
+                                        <img [src]="image.itemImageSrc" [alt]="image.title" class="w-6 shadow-2" />
+                                    </ng-template>
+                                </p-card>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </p-carousel>
+        </div>
+    </div>
 </div>

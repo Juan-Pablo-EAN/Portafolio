@@ -1,0 +1,112 @@
+.content {
+    background-image: url('../../../imgs/wood5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .text {
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    padding-left: 5%;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.container .imagesDiv {
+    width: 69%;
+    display: flex;
+}
+
+.imagesDiv .university {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesDiv .university div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesDiv .university .birrete {
+    padding-top: 5%;
+    flex-wrap: wrap;
+}
+
+.imagesDiv .university .birrete img {
+    filter: invert();
+}
+
+.imagesDiv .university .birrete .enlace {
+    width: 100%;
+}
+
+.imagesDiv a {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 50px;
+}
+
+.imagesDiv .flag {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagesDiv .flag .colombia {
+    display: flex;
+    justify-content: center;
+}
+
+.imagesDiv .flag .colombia img {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width:1300px) {
+    .container, .imagesDiv, .flag {
+        flex-wrap: wrap !important;
+    }
+
+    .text,
+    .imagesDiv, .university, .flag, .colombia {
+        width: 100% !important;
+    }
+
+    .flag {
+        margin-top: 100px;
+    }
+
+    .content {
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .imagesDiv .university .birrete img {
+        width: 300px;
+    }
+
+    .text p {
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -2,9 +2,14 @@
 @import "primeng/resources/primeng.css";
 
 body {
+    width: 100%;
     font-family: var(--font-family);
-    background-image: url(imgs/wood2.jpg);
-    background-size: contain;
     height: 3000px;
-    padding: 0 5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.componentDiv {
+    height: 100vh;
 }

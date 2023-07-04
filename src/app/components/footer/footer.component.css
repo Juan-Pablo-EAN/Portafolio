@@ -1,0 +1,7 @@
+.content {
+    background-image: url('../../../imgs/wood3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
