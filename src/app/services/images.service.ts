@@ -52,6 +52,12 @@ export class ImagesService {
         title: 'Azure'
       },
       {
+        itemImageSrc: 'https://i.ibb.co/CwDK39D/git.png',
+        thumbnailImageSrc: '',
+        alt: 'Git',
+        title: 'Git'
+      },
+      {
         itemImageSrc: 'https://i.ibb.co/MNhndjZ/html.png',
         thumbnailImageSrc: '',
         alt: 'HTML',
