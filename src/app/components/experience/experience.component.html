@@ -1,0 +1,20 @@
+<div class="componentDiv content" appBackgrounds>
+    <div *ngFor="let experience of listExperience" class="containerExperience">
+        <div class="logo">
+            <img [src]="experience.logo" alt="Company" [title]="experience.company">
+        </div>
+        <div class="textContent">
+            <div class="position">
+                <h1>{{experience.position}}
+                    <span class="titleResponsive">- {{experience.company}}</span>
+                </h1>
+            </div>
+            <div class="date">
+                <h3>{{experience.date}}</h3>
+            </div>
+            <div class="description">
+                <p>{{experience.description}}<p>
+            </div>
+        </div>
+    </div>
+</div>

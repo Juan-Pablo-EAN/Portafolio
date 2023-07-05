@@ -1,0 +1,8 @@
+<div class="componentDiv content" appBackgrounds>
+    <div class="containerIcons">
+        <div *ngFor="let icon of listIcons">
+            <i class="pi pi-{{icon.typeIcon}}" [title]="icon.title" (click)="goToLink(icon.link)"
+                style="color: white; cursor: pointer"></i>
+        </div>
+    </div>
+</div>

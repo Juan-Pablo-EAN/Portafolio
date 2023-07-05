@@ -1,0 +1,77 @@
+.content {
+    background-image: url('https://i.ibb.co/pX6Jjsx/wood7.jpg');
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+    min-height: 100vh !important;
+    padding: 2% 0 2% 0;
+}
+
+.content .containerExperience {
+    width: 100%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+
+.containerExperience .logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(36, 36, 36, 0.348);
+}
+
+.containerExperience .logo img {
+    width: 300px;
+}
+
+.containerExperience .textContent {
+    width: 60%;
+    background: rgba(36, 36, 36, 0.348);
+}
+
+.position, .description, .date {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.titleResponsive {
+    display: none;
+}
+
+.textContent h1 {
+    font-size: 60px;
+}
+
+.textContent h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.textContent p {
+    font-size: 35px;
+}
+
+@media screen and (max-width:1000px) {
+    .containerExperience .logo {
+        display: none;
+    }
+    .containerExperience .textContent {
+        width: 100%;
+        padding: 3%;
+    }
+    .titleResponsive {
+        display: block;
+    }
+}
+
