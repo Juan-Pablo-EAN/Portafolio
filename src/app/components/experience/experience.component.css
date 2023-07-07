@@ -27,7 +27,7 @@
 }
 
 .containerExperience .logo img {
-    width: 300px;
+    width: 200px;
 }
 
 .containerExperience .textContent {
@@ -49,17 +49,17 @@
 }
 
 .textContent h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .textContent h3 {
-    font-size: 25px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
 
 .textContent p {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:1000px) {

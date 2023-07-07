@@ -4,7 +4,7 @@
     </div>
     <div class="containerProjects">
         <div *ngFor="let project of listProjects" class="cardDiv">
-            <p-card class="cardNg" [header]="project.title" [style]="{ width: '300px',
+            <p-card class="cardNg" [header]="project.title" [style]="{ width: '250px',
             cursor:'pointer', backgroundColor:'#353535a8', color:'white', height: '220px'}">
                 <ng-template pTemplate="footer">
                     <p-button (onClick)="goToProject(project.link)" label="Go to project" icon="pi pi-check"></p-button>

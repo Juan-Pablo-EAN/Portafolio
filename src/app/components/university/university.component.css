@@ -4,6 +4,7 @@
 }
 
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -16,7 +17,7 @@
     text-align: left;
     align-items: center;
     color: white;
-    font-size: 60px;
+    font-size: 45px;
     padding-left: 5%;
     font-family: var(--font-family);
     font-weight: bold;
@@ -48,6 +49,7 @@
 }
 
 .imagesDiv .university .birrete img {
+    width: 300px;
     filter: invert();
 }
 
@@ -58,7 +60,7 @@
 .imagesDiv a {
     color: white;
     font-family: var(--font-family);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .imagesDiv .flag {
@@ -69,17 +71,21 @@
     justify-content: center;
 }
 
+.imagesDiv .flag .ean {
+    width: 150px;
+}
+
 .imagesDiv .flag .colombia {
     display: flex;
     justify-content: center;
 }
 
 .imagesDiv .flag .colombia img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1000px) {
     .container, .imagesDiv, .flag {
         flex-wrap: wrap !important;
     }

@@ -4,14 +4,14 @@
     </div>
     <div class="contentImages">
         <div class="contentCarusel">
-            <p-carousel [value]="images" [numVisible]="4" [autoplayInterval]="5000" [numScroll]="1"
+            <p-carousel [value]="images" [numVisible]="5" [autoplayInterval]="5000" [numScroll]="1"
                 [responsiveOptions]="responsiveOptions" [circular]="true">
                 <ng-template let-image pTemplate="item">
                     <div class="image-item">
                         <div class="image-item-content">
-                            <div class="mb-3">
-                                <p-card [header]="image.title" [style]="{ width: '300px', padding: '5%', textAlign:'center',
-                                    background:'#353535a8', color:'white', height: '400px',
+                            <div class="mb-3 contentCard">
+                                <p-card [header]="image.title" [style]="{ width: '200px', padding: '5%', textAlign:'center',
+                                    background:'#353535a8', color:'white', height: '300px',
                                     display:'flex', justifyContent:'center', alignItems:'center',
                                     flexWrap:'wrap'}">
                                     <ng-template pTemplate="header">

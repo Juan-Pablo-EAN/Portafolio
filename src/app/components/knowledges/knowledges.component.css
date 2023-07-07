@@ -14,6 +14,7 @@
 
 .contentCarusel {
     width: 100%;
+    max-width: 1500px;
     padding-bottom: 7%;
 }
 
@@ -30,4 +31,15 @@
     color: white;
     font-family: var(--font-family);
     font-size: 60px;
+}
+
+.contentCard {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px) {
+    .titleDiv h1 {
+        font-size: 40px;
+    }
 }
