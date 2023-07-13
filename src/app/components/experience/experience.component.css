@@ -10,6 +10,13 @@
     padding: 2% 0 2% 0;
 }
 
+.componentTitle h1{
+    text-align: center;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 50px;
+}
+
 .content .containerExperience {
     width: 100%;
     padding: 0 5% 0 5%;
